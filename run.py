@@ -2,7 +2,7 @@ import urllib
 
 urllib.request.urlretrieve("https://https://s3.amazonaws.com/tcmg476/http_access_log","data.txt")
 
-t = open ('http_access_log.txt', 'r')
+t = open ('data', 'r')
 q1 = 0
 q2 = 0
 
