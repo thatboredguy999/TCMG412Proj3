@@ -1,4 +1,4 @@
-import urllib
+import urllib.request
 
 urllib.request.urlretrieve("https://https://s3.amazonaws.com/tcmg476/http_access_log","data.txt")
 
