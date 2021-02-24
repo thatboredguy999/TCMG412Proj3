@@ -1,7 +1,7 @@
 # This command will allow the file content from the url to run in python 
 import urllib.request
 
-urllib.request.urlretrieve("https://https://s3.amazonaws.com/tcmg476/http_access_log","data.txt")
+urllib.request.urlretrieve('https://https://s3.amazonaws.com/tcmg476/http_access_log','data.txt')
 
 # "t", "q1", "q2" are variables that will be executed for the overall outcome
 t = open ('data.txt', 'r')
