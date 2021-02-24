@@ -13,5 +13,5 @@ for line in t:
 		if '/1995' in line:
 			q1 += 1
 
-print ("The number of transactions documented in 1995 is " , q1)
-print ("The total number of transactions documented for this period is ", q2)
+print ('The number of transactions documented in 1995 is ' , q1)
+print ('The total number of transactions documented for this period is ', q2)
