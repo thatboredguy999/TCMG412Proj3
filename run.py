@@ -5,7 +5,7 @@ q2 = 0
 for line in t:
         if '/1995' in line:
                 q1 = q1 + 1
-for line in t:
+                
         if '/199' in line:
                 q2 = q2 + 1
 
