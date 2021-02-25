@@ -11,7 +11,7 @@ with open("python.txt","wb") as textfile:
        if chunk:
            textfile.write(chunk)
 
-# "t", "q1", "q2" are variables that will be executed for the overall outcome
+# "file", "q1", "q2" are variables that will be executed for the overall outcome
 file = open ("python.txt")
 q1 = 0
 q2 = 0
@@ -25,5 +25,5 @@ for line in file:
 		q1 += 1
 			
 # These print statements will give the outputs that were documented in the certain time periods
-print ('The number of transactions documented in 1995 is' , q1)
-print ('The total number of transactions documented for this period is', q2)
+print 'The number of transactions documented in 1995 is', q1
+print 'The total number of transactions documented for this period is', q2
